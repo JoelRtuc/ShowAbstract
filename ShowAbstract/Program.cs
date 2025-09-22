@@ -9,8 +9,8 @@
 
             Console.WriteLine("Hello, World!");
 
-            Console.WriteLine(admin.ShowMenu);
-            Console.WriteLine(costumer.ShowMenu);
+            admin.ShowMenu();
+            costumer.ShowMenu();
 
         }
     }
